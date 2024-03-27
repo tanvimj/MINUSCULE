@@ -1,3 +1,2 @@
 # README-AND-WEEP
-poor pun i know 
-but facts
+poor pun I know 
