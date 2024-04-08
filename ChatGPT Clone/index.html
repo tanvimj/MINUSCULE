@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>ChatGPT</title>
+</head>
+<body>
+	<div class="container">
+
+		<div class="leftbox">
+			<div class="newchat">
+				<img src="D:\Webpages\PROJECT1\newchatimg.jpeg" class="newchatimg">
+				<div class="newchattext">New chat</div>
+			</div>	
+			<div class="username">
+				<span class="usertext">
+					Rahim Rizzler
+				</span>
+				<img class="userimg" src="D:\Webpages\PROJECT1\userimg.png">
+			</div>
+			<div class="upgradeplan">
+				<img class="upgradeimg" src="D:\Webpages\PROJECT1\upgradeimg.png">
+				<span class="upgradetext1">
+					Upgrade plan
+				</span>
+				<span class="upgradetext2">
+					Get GPT-4, DALL-E and more
+				</span>
+			</div>
+		</div>
+
+		<div class="rightbox">
+
+			<div class="srchboxcnt">
+				<div class="srchbox">
+				<input type="text" placeholder="Message ChatGPT...">
+				<button id="searchButton">Search</button>
+			</div>
+			</div>
+			<div class="gpt35">
+				<div class="gpt35text">
+					ChatGPT 3.5
+				</div>
+			</div>
+			<div class="mistakes">
+				Consider yourself lucky I didn't add any random literary quote here.
+			</div>
+			<div>
+				<div class="upload">
+					<img class="uploadimg" src="D:\Webpages\PROJECT1\uploadimg.png">
+				</div>
+			</div>
+			<div class="mainlogo">
+				<img class="mainlogoimg" src="D:\Webpages\PROJECT1\newchatimg.jpeg">
+				<span class="mainlogotext">How can I help you today?</span>
+			</div>
+			<div class="boxone">
+				<span class="boxonetextone">
+					Suggest fun activities
+				</span>
+				<span class="boxonetexttwo">
+					like how to have an existential crisis in your early 10's
+				</span>
+			</div>
+			<div class="boxtwo">
+				<span class="boxtwotextone">
+					Ask me a question
+				</span>
+				<span class="boxtwotexttwo">
+					but only if you're ready for a highly opinionated answer
+				</span>
+			</div>
+			<div class="boxthree">
+				<span class="boxthreetextone">
+					Help me pick
+				</span>
+				<span class="boxthreetexttwo">
+					between studying and staring blankly at the ceiling
+				</span>
+			</div>
+			<div class="boxfour">
+				<span class="boxfourtextone">
+					Design a database scheme
+				</span>
+				<span class="boxfourtexttwo">
+					that's over-engineered for a simple task
+				</span>
+			</div>
+			<div class="help">
+				<img class="helpimg" src="D:\Webpages\PROJECT1\questionmark.png">
+			</div>
+		</div>
+	</div>
+
+	<div id="replyBox" class="reply-box">
+		<span id="replyText"></span>
+	</div>
+
+	<script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const searchButton = document.getElementById('searchButton');
+            const replyBox = document.getElementById('replyBox');
+            const replyText = document.getElementById('replyText');
+
+            // Define replies
+            const replies = [
+                "Oh, perfect timing! Our website decided to take a siesta right when you needed it.",
+                "Congratulations! You've stumbled upon our award-winning '404 Page of the Day'.",
+                "Oh, you wanted the website to work? Silly me, I thought you were here for the error messages.",
+                "Our website is down bad currently."
+            ];
+
+            searchButton.addEventListener('click', function () {
+                const randomIndex = Math.floor(Math.random() * replies.length);
+                const reply = replies[randomIndex];
+                replyBox.style.display = 'block';
+                replyText.textContent = reply;
+
+                setTimeout(function () {
+                    replyBox.style.display = 'none';
+                }, 5000); // 10 seconds in milliseconds
+            });
+        });
+    </script>
+</body>
+</html> 
