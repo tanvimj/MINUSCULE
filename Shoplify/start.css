@@ -1,0 +1,106 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+    background-color: black;
+}
+
+.email{
+    position: absolute;
+    top: 40%;
+    color: hwb(34 84% 2%);
+    left: 41%;
+    background-color: #4e4e50;
+}
+
+
+.emailabel{
+    position: absolute;
+    top: 41%;
+    left: 34.2%;
+    color: white;
+    font-size: 0.9em;
+}
+
+.logincon{
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    top: 65%;
+    left: 45%;
+}
+
+/* .logincon :hover{
+    border: 1px solid white;
+    height: 20px;
+    width: 50px;
+}
+*/
+
+.login{
+    color: aliceblue;
+    text-decoration: dotted;
+    position: absolute;
+}
+
+
+.pass{
+    position: absolute;
+    top: 50%;
+    color: antiquewhite;
+    left: 41%;
+    background-color: #4e4e50;
+}
+
+.passlabel{
+    position: absolute;
+    top: 50.5%;
+    color: white;
+    left: 32.5%;
+    font-size: 0.9em;
+}
+
+.logo{
+    position: absolute;
+    height: 80px;
+    left: 43%;
+    top: 18%;
+}
+
+.follow{
+    position: absolute;
+    font-size: 0.9em;
+    color: #4e4e50;
+    bottom: 4%;
+    left: 3%;
+    list-style: none;
+}
+
+.twitter{
+    height: 11px;
+    position: absolute;
+    bottom: 4.3%;
+    left: 11%;
+}
+
+.instagram{
+    height: 13px;
+    position: absolute;
+    bottom: 4.1%;
+    left: 14%;
+}
+
+.send{
+    height: 13px;
+    position: absolute;
+    bottom: 3.9%;
+    left: 17%;
+}
+
+.cr{
+    color: #4e4e50;
+    position: absolute;
+    right: 4%;
+    font-size: 0.8em;
+    bottom: 4%;
+    
+}

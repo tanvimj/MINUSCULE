@@ -1,0 +1,241 @@
+body{
+    background-color: black;
+    overflow-y: auto;
+    min-height: 610px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.heel1{
+    background-color: #4e4e50;
+    width: 200px; /* Adjust as needed */
+    height: 200px;
+    margin: 10px;
+    border-radius: 50%;
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+    border: 2px solid transparent;
+    position: absolute;
+    top: 30%;
+    left: 8%;
+}
+
+.heel1:hover{
+    transform: translateY(-10px); /* Lifted up */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    border-color: rgb(170, 168, 168);
+}
+
+.heel1img{
+    position: absolute;
+    top: 8%;
+    right: 20%;
+    height: 70px;
+}
+
+.heel1txt{
+    color: antiquewhite;
+    transform: skewY(28deg); /* Adjust the degree of slant as needed */
+    display: inline-block; 
+    text-shadow: 5px 3px 1px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 23%;
+    top: 38%;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.heel2{
+    background-color: #950740;
+    width: 200px; /* Adjust as needed */
+    height: 200px;
+    margin: 10px;
+    border-radius: 50%;
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+    border: 2px solid transparent;
+    position: absolute;
+    top: 30%;
+    left: 38%;
+}
+
+.heel2:hover{
+    transform: translateY(-10px); /* Lifted up */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    border-color: rgb(170, 168, 168);
+}
+
+.heel2img{
+    position: absolute;
+    top: 8%;
+    right: 20%;
+    height: 80px;
+}
+
+.heel2txt{
+    color: antiquewhite;
+    transform: skewY(28deg); /* Adjust the degree of slant as needed */
+    display: inline-block; 
+    text-shadow: 5px 3px 1px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 26%;
+    top: 38%;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.heel3{
+    background-color: #4e4e50;
+    width: 200px; /* Adjust as needed */
+    height: 200px;
+    margin: 10px;
+    border-radius: 50%;
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+    border: 2px solid transparent;
+    position: absolute;
+    top: 30%;
+    left: 68%;
+}
+
+.heel3:hover{
+    transform: translateY(-10px); /* Lifted up */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    border-color: rgb(170, 168, 168);
+}
+
+.heel3img{
+    position: absolute;
+    top: 8%;
+    right: 20%;
+    height: 70px;
+}
+
+.heel3txt{
+    color: antiquewhite;
+    transform: skewY(28deg); /* Adjust the degree of slant as needed */
+    display: inline-block; 
+    text-shadow: 5px 3px 1px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 11%;
+    top: 40%;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.heel4{
+    background-color: #950740;
+    width: 200px; /* Adjust as needed */
+    height: 200px;
+    margin: 10px;
+    border-radius: 50%;
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+    border: 2px solid transparent;
+    position: absolute;
+    top: 80%;
+    left: 8%;
+}
+
+.heel4:hover{
+    transform: translateY(-10px); /* Lifted up */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    border-color: rgb(170, 168, 168);
+}
+
+.heel4img{
+    position: absolute;
+    top: 8%;
+    right: 20%;
+    height: 80px;
+}
+
+.heel4txt{
+    color: antiquewhite;
+    transform: skewY(28deg); /* Adjust the degree of slant as needed */
+    display: inline-block; 
+    text-shadow: 5px 3px 1px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 17%;
+    top: 38%;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.heel5{
+    background-color: #4e4e50;
+    width: 200px; /* Adjust as needed */
+    height: 200px;
+    margin: 10px;
+    border-radius: 50%;
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+    border: 2px solid transparent;
+    position: absolute;
+    top: 80%;
+    left: 38%;
+}
+
+.heel5:hover{
+    transform: translateY(-10px); /* Lifted up */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    border-color: rgb(170, 168, 168);
+}
+
+.heel5img{
+    position: absolute;
+    top: 8%;
+    right: 20%;
+    height: 75px;
+}
+
+.heel5txt{
+    color: antiquewhite;
+    transform: skewY(28deg); /* Adjust the degree of slant as needed */
+    display: inline-block; 
+    text-shadow: 5px 3px 1px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 14%;
+    top: 38%;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.heel6{
+    background-color: #950740;
+    width: 200px; /* Adjust as needed */
+    height: 200px;
+    margin: 10px;
+    border-radius: 50%;
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+    border: 2px solid transparent;
+    position: absolute;
+    top: 80%;
+    left: 68%;
+}
+
+.heel6:hover{
+    transform: translateY(-10px); /* Lifted up */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    border-color: rgb(170, 168, 168);
+}
+
+.heel6img{
+    position: absolute;
+    top: 8%;
+    right: 20%;
+    height: 70px;
+}
+
+.heel6txt{
+    color: antiquewhite;
+    transform: skewY(28deg); /* Adjust the degree of slant as needed */
+    display: inline-block; 
+    text-shadow: 5px 3px 1px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 27%;
+    top: 40%;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.LEAVE{
+    font-size: 1.7em;
+    top: 1%;
+    text-align: center;
+    color: antiquewhite;
+}

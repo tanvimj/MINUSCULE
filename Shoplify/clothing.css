@@ -1,0 +1,261 @@
+body{
+    background-color: black;
+    font-family: 'Quicksand', sans-serif;
+    color: antiquewhite;
+}
+
+.dress1 {
+    width: 300px;
+    background-color: #950740;
+    height: 50px;
+    border-radius: 25px;
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+    border: 2px solid transparent;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+.dress1:hover {
+    transform: translateY(-10px); /* Lifted up */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    border-color: pink;
+}
+
+.dress1img{
+    height: 50px;
+    position: absolute;
+    left: 2%;
+    bottom: 1%;
+}
+
+.dress2 {
+    width: 300px;
+    background-color: #4e4e50;
+    height: 50px;
+    border-radius: 25px;
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+    border: 2px solid transparent;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+
+.dress2:hover {
+    transform: translateY(-10px); /* Lifted up */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    border-color: pink;
+}
+
+.dress2img{
+    height: 50px;
+    position: absolute;
+    left: 2%;
+    bottom: 1%;
+}
+
+.dress3 {
+    width: 300px;
+    background-color: #950740;
+    height: 50px;
+    border-radius: 25px;
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+    border: 2px solid transparent;
+    position: absolute;
+    top: 60%;
+    left: 5%;
+}
+
+.dress3:hover {
+    transform: translateY(-10px); /* Lifted up */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    border-color: pink;
+}
+
+.dress3img{
+    height: 50px;
+    position: absolute;
+    left: 2%;
+    bottom: 1%;
+}
+
+.dress4{
+    width: 300px;
+    background-color: #4e4e50;
+    height: 50px;
+    border-radius: 25px;
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+    border: 2px solid transparent;
+    position: absolute;
+    top: 80%;
+    left: 5%;
+}
+
+.dress4:hover {
+    transform: translateY(-10px); /* Lifted up */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    border-color: pink;
+}
+
+.dress4img{
+    height: 50px;
+    position: absolute;
+    left: 2%;
+    bottom: 1%;
+}
+
+.dress5{
+    width: 300px;
+    background-color: #4e4e50;
+    height: 50px;
+    border-radius: 25px;
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+    border: 2px solid transparent;
+    position: absolute;
+    top: 20%;
+    left: 61%;
+}
+
+.dress5:hover {
+    transform: translateY(-10px); /* Lifted up */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    border-color: pink;
+}
+
+.dress5img{
+    height: 50px;
+    position: absolute;
+    left: 2%;
+    bottom: 1%;
+}
+
+.dress6{
+    width: 300px;
+    background-color: #950740;
+    height: 50px;
+    border-radius: 25px;
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+    border: 2px solid transparent;
+    position: absolute;
+    top: 40%;
+    left: 61%;
+}
+
+.dress6:hover {
+    transform: translateY(-10px); /* Lifted up */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    border-color: pink;
+}
+
+.dress6img{
+    height: 50px;
+    position: absolute;
+    left: 2%;
+    bottom: 1%;
+}
+
+.dress7{
+    width: 300px;
+    background-color: #4e4e50;
+    height: 50px;
+    border-radius: 25px;
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+    border: 2px solid transparent;
+    position: absolute;
+    top: 60%;
+    left: 61%;
+}
+
+.dress7:hover {
+    transform: translateY(-10px); /* Lifted up */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    border-color: pink;
+}
+
+.dress7img{
+    height: 50px;
+    position: absolute;
+    left: 2%;
+    bottom: 1%;
+}
+
+.dress8{
+    width: 300px;
+    background-color: #950740;
+    height: 50px;
+    border-radius: 25px;
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+    border: 2px solid transparent;
+    position: absolute;
+    top: 80%;
+    left: 61%;
+}
+
+.dress8:hover {
+    transform: translateY(-10px); /* Lifted up */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    border-color: pink;
+}
+
+.dress8img{
+    height: 50px;
+    position: absolute;
+    left: 2%;
+    bottom: 1%;
+}
+
+/* let the texts begin */
+
+.categories{
+    font-size: 1.7em;
+    top: 1%;
+    text-align: center;
+}
+
+.dress1txt{
+    position: absolute;
+    right: 5%;;
+    font-weight: 450;
+}
+
+.dress2txt{
+    position: absolute;
+    right: 5%;
+    font-weight: 450;
+}
+
+.dress3txt{
+    position: absolute;
+    right: 5%;
+    font-weight: 450;
+}
+
+.dress4txt{
+    position: absolute;
+    right: 5%;
+    font-weight: 450;
+}
+
+.dress5txt{
+    position: absolute;
+    right: 5%;
+    font-weight: 450;
+}
+
+.dress6txt{
+    position: absolute;
+    right: 5%;
+    font-weight: 450;
+}
+
+.dress7txt{
+    position: absolute;
+    right: 5%;
+    font-weight: 450;
+}
+
+.dress8txt{
+    position: absolute;
+    right: 5%;;
+    font-weight: 450;
+}

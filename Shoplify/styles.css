@@ -1,0 +1,249 @@
+body{
+  font-family: 'Quicksand', sans-serif;
+  background-color: black;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.navbar{
+   position: absolute;
+   top: 3%;
+   left: 5%;
+   right: 5%;
+   
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1a1a1d;
+    border-radius: 25px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+
+    display: block;
+    color: #4e4e50;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    transition: 0.5s ease;
+    background-color: #950740;
+    border: 1px solid black;
+    color: aliceblue;
+  }
+
+  .one, .two, .three, .four{
+    border-radius: 5px;
+    font-size: 1em;
+  }
+
+.search{
+  position: absolute;
+  width: 440px;
+  height: 42px;
+  border-radius: 25px;
+  right: 0;
+  background-color: #4e4e50;
+  box-shadow: none;
+  color: antiquewhite;
+  font-size: 1em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+  .searchbtn{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    right: 0;
+    border-radius: 25px;
+  }
+
+  .searchimg{
+    position: absolute;
+    height: 30px;
+    top: 20%;
+    right: 18%;
+  }
+
+.slice1{
+  position: absolute;
+  height: 240px;
+  width: 30%;
+  background-color: #4e4e50;
+  top: 45%;
+  left: 3%;
+  border-radius: 40px;
+  transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+  border: 2px solid transparent;
+}
+
+.slice1:hover {
+  transform: translateY(-10px); /* Lifts up */
+  box-shadow: 0px 5px 15px #4e4e50; /* Shadow effect */
+  border-color: #1f2833; /* Border color changes on hover */
+}
+
+.necklace{
+  height: 80px;
+  position: absolute;
+  bottom: 5%;
+  left: 31%;
+}
+
+.slice2{
+  position: absolute;
+  height: 240px;
+  width: 30%;
+  background-color: #950740;
+  top: 45%;
+  left: 35%;
+  border-radius: 40px;
+  transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+  border: 2px solid transparent;
+}
+
+.slice2:hover {
+  transform: translateY(-10px); /* Lifts up */
+  box-shadow: 0px 5px 15px #4e4e50; /* Shadow effect */
+  border-color: #1f2833; /* Border color changes on hover */
+}
+
+.dress{
+  height: 80px;
+  position: absolute;
+  bottom: 5%;
+  left: 31%;
+}
+
+.slice3{
+  position: absolute;
+  height: 240px;
+  width: 30%;
+  background-color: #4e4e50;
+  top: 45%;
+  left: 67%;
+  border-radius: 40px;
+  transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+  border: 2px solid transparent;
+}
+
+.slice3:hover {
+  transform: translateY(-10px); /* Lifts up */
+  box-shadow: 0px 5px 15px #4e4e50; /* Shadow effect */
+  border-color: #1f2833; /* Border color changes on hover */
+}
+
+.heels{
+  height: 80px;
+  position: absolute;
+  bottom: 5%;
+  left: 31%;
+}
+
+/* TEXTS ALL HERE */
+
+.TREASURED{
+  position: absolute;
+  top: 3%;
+  color: antiquewhite;
+  left: 4%;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+}
+
+.ADORNMENTS{
+  position: absolute;
+  top: 10%;
+  color: antiquewhite;
+  left: 4%;
+  font-size: 1.2em;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+}
+
+.CONFIDENCE{
+  position: absolute;
+  top: 3%;
+  color: antiquewhite;
+  left: 4%;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.TAKES{
+  position: absolute;
+  top: 15%;
+  color: antiquewhite;
+  left: 4%;
+  font-size: 1em;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+}
+
+.ELEVATE{
+  position: absolute;
+  top: 3%;
+  color: antiquewhite;
+  left: 4%;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.EVERYDAY{
+  position: absolute;
+  top: 15%;
+  color: antiquewhite;
+  left: 4%;
+  font-size: 1em;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #1a1a1d;
+  min-width: 160px;
+  z-index: 1;
+  border-radius: 20px;
+}
+
+.dropdown-content a {
+  color: #4e4e50;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #950740;
+  color: aliceblue;
+  border-radius: 20px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .one {
+  background-color: #950740;
+}
+
+.text-container{
+  position: absolute;
+  color: antiquewhite;
+  top: 16%;
+  left: 5%;
+}
