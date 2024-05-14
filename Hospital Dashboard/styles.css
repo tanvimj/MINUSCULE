@@ -1,0 +1,377 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    overflow-y: hidden;
+}
+
+.container{
+    border-radius: 16px;
+    background: #f2f2f2;
+    box-shadow:  9px 9px 18px #828282,
+    -9px -9px 18px #ffffff;
+    height: 500px;
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  /* this is how you center a div my nigga*/
+}
+
+nav{
+    flex-direction: column;
+    height:inherit;
+    width: 150px;
+    background-color: white;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    box-shadow:  9px 0px 18px #e6e6e6,
+    -9px -9px 18px #ffffff;
+}
+
+.hospitalimg{
+    position: absolute;
+    height: 28px;
+    left: 0.5%;
+    top: 5%;
+    margin-top: 2px;
+}
+
+.Hospitaltxt{
+    position: absolute;
+    color: #004d4d;
+    left: 4.2%;
+    top: 1.6%;
+}
+
+.Dashboardtxt{
+    font-weight: 600;
+    position: absolute;
+    left: 1.4%;
+    top: 14%;
+    color: #00b3b3;
+}
+
+.Dashboardtxt2{
+    color: #00b3b3;
+    font-weight: 500;
+}
+
+.Contactus{
+    color: #00b3b3;
+    font-weight: 500;
+}
+
+.Components{
+    color: #00b3b3;
+    font-weight: 500;
+}
+
+.mainul{
+    position: absolute;
+    top: 20%;
+    right: 87%;
+}
+
+ul{
+    font-size: 0.9em;
+}
+
+li{
+    width: 60px;
+    height: 15px;
+    list-style: none;
+    margin: 4px;
+    color: #999999;
+    font-size: 0.8em;
+    border: 5px;
+    transition: color;
+}
+
+li:hover{
+    color: #00b3b3 ;
+}
+
+.homeimg{
+    position: absolute;
+    height: 13px;
+    left: 40%;
+}
+
+.contactimg{
+    position: absolute;
+    height: 14px;
+    left: 39%;
+    margin-top: 1px;
+}
+
+.statisticalimg{
+    position: absolute;
+    height: 13px;
+    left: 40%;
+    margin-top: 2px;
+}
+
+.searchimg{
+    position: absolute;
+    height: 15px;
+    top: 20%;
+    right: 18%;
+    left: 28.2%;
+    top: 44%;
+}
+
+.search{
+    position: absolute;
+    width: 200px;
+    height: 27px;
+    border-radius: 25px;
+    background-color:#e6e6e6;
+    box-shadow: none;
+    color: #999999;
+    font-size: 0.8em;
+    border-color: #f2f2f2;
+    left: 1%;
+    top: 36%;
+    border: none;
+    outline: #999999;
+}
+  
+.search::placeholder {
+    color: #999999;
+    font-size: 0.9em;
+    padding-left: 10px;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+.search:focus {
+    outline: 2px solid #999999;
+}
+
+.horinav{
+    position: absolute;
+    top: 0;
+    left: 150px;
+    width: calc(100% - 150px);
+    height: 70px;
+    background-color: #ffffff;
+    border-top-right-radius: 16px;
+    box-shadow:  9px 0px 18px #e6e6e6,
+    -9px -9px 18px #ffffff;
+}
+
+.bellringimg{
+    position: absolute;
+    height: 16px;
+    top: 20%;
+    right: 18%;
+    left: 67%;
+    top: 44%;
+}
+
+.messageimg{
+    position: absolute;
+    height: 16px;
+    top: 34%;
+    left: 72%;
+    top: 46%;
+}
+
+.doctorbox{
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    border-color: black;
+    border-radius: 10px;
+    top: 25%;
+    left: 77%;
+    box-sizing: border-box;
+    border: 2px solid #999999;
+    transition: background-color;
+}
+
+.doctorbox:hover{
+    background-color: #f2f2f2;
+}
+
+.doctorimg{
+    height: 20px;
+    position: absolute;
+    left: 6%;
+    top: 21%;
+}
+
+.doctorname{
+    position: absolute;
+    left: 26%;
+    top: -9%;
+    font-size: 0.9em;
+    color: #828282;
+    transform: color;
+}
+
+.doctorname:hover{
+    color: #737373;
+}
+
+.doctorsbox{
+    position: absolute;
+    width: 250px;
+    height: 80px;
+    top: 18%;
+    left: 25%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.doctorsbox:hover{
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+}
+
+.doctorsimg{
+    position: absolute;
+    height: 36px;
+    top: 23%;
+    left: 16%;
+}
+
+.doctors{
+    position: absolute;
+    font-size: 0.8em;
+    left: 35.5%;
+    top: 35%;
+    color: #b3b3b3;
+}
+
+.doctorsno{
+    position: absolute;
+    font-size: 1.4em;
+    top: -8%;
+    left: 35%;
+    color: #004d4d;
+}
+
+.nursesbox{
+    position: absolute;
+    width: 250px;
+    height: 80px;
+    top: 18%;
+    left: 63%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.nursesbox:hover{
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+}
+
+.nursesimg{
+    position: absolute;
+    height: 36px;
+    top: 27%;
+    left: 15%;
+}
+
+.nurses{
+    position: absolute;
+    font-size: 0.8em;
+    left: 35.5%;
+    top: 35%;
+    color: #b3b3b3;
+}
+
+.nursesno{
+    position: absolute;
+    font-size: 1.4em;
+    top: -8%;
+    left: 35%;
+    color: #004d4d;
+}
+
+.patientsbox{
+    position: absolute;
+    width: 250px;
+    height: 80px;
+    top: 38%;
+    left: 25%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.patientsbox:hover{
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+}
+
+.patientsimg{
+    position: absolute;
+    height: 36px;
+    top: 27%;
+    left: 16%;
+}
+
+.patients{
+    position: absolute;
+    font-size: 0.8em;
+    left: 35.5%;
+    top: 35%;
+    color: #b3b3b3;
+}
+
+.patientsno{
+    position: absolute;
+    font-size: 1.4em;
+    top: -8%;
+    left: 35%;
+    color: #004d4d;
+}
+
+.pharmasbox{
+    position: absolute;
+    width: 250px;
+    height: 80px;
+    top: 38%;
+    left: 63%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.pharmasbox:hover{
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+}
+
+.pharmaimg{
+    position: absolute;
+    height: 36px;
+    top: 27%;
+    left: 15%;
+}
+
+.pharmas{
+    position: absolute;
+    font-size: 0.8em;
+    left: 35.5%;
+    top: 35%;
+    color: #b3b3b3;
+}
+
+.pharmasno{
+    position: absolute;
+    font-size: 1.4em;
+    top: -8%;
+    left: 35%;
+    color: #004d4d;
+}
+
+.chartbox{
+    height: 450px;
+    width: 400px;
+    position: absolute;
+    top: 57%;
+    left: 20%;
+}  
