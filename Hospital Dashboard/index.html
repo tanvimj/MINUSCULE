@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <img src="hospital.png" class="hospitalimg">
+            <h2 class="Hospitaltxt">Hospital</h2>
+            <p class="Dashboardtxt">Dashboard</p>
+            <ul class="mainul">
+                <ul class="Dashboard">
+                    <img src="home.png" class="homeimg">
+                    <p class="Dashboardtxt2">Dashboard</p>
+                    <li class="Dashboard1">Dashboard1</li>
+                    <li class="Dashboard2">Dashboard2</li>
+                </ul>
+                <ul>
+                    <img src="contact.png" class="contactimg">
+                    <p class="Contactus">Connections</p>
+                    <li class="About">About Us</li>
+                    <li class="Home">Home</li>
+                </ul>
+                <ul class="Components">
+                    <img src="statisticalimg.png" class="statisticalimg">
+                    <p class="Components">Statistical Data</p>
+                    <li class="Umm">Graphs</li>
+                    <li class="Yeah">Pie-Charts</li>
+                </ul>
+            </ul>
+        </nav>
+        <section class="horinav">
+            <input type="text" name="search" class="search" placeholder="Search here...">
+            <img class="searchimg" src="searchicon.png">
+            <img src="bell-ring.png" class="bellringimg">
+            <img src="message.png" class="messageimg">
+            <div class="doctorbox">
+                <img src="doctor.png" class="doctorimg">
+                <p class="doctorname">Dr. Mugi Chan</p>
+            </div>
+        </section>
+        <div class="minicont">
+            <section class="doctorsbox">
+                <img src="doctors.png" class="doctorsimg">
+                <p class="doctorsno">622</p>
+                <p class="doctors">Doctors</p>
+            </section>
+            <section class="nursesbox">
+                <img src="nurses.png" class="nursesimg">
+                <p class="nurses">Nurses</p>
+                <p class="nursesno">1760</p>
+            </section>
+            <section class="patientsbox">
+                <img src="patients.png" class="patientsimg">
+                <p class="patients">Patients</p>
+                <p class="patientsno">2549</p>
+            </section>
+            <section class="pharmasbox">
+                <img src="pharmaimg.png" class="pharmaimg">
+                <p class="pharmas">Pharmacists</p>
+                <p class="pharmasno">2115</p>
+            </section>
+        </div>
+        <div class="chartbox">
+            <canvas class="chart" id="myChart"></canvas> <!-- Set width and height attributes -->
+        </div>         
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
