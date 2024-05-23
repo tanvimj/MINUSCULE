@@ -1,0 +1,179 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Tajawal', sans-serif;
+    color: white;
+}
+
+.bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('bokeh1.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.glass1{
+    background: rgba(200, 151, 249, 0.085);
+    box-shadow: 0 5px 10px 0 rgba(110, 110, 110, 0.37);
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.087);
+    position: absolute;
+    height: 250px;
+    width: 400px;
+    top: 43%;
+    left: 27%;
+    z-index: 1;
+}
+
+.glass2{
+    background: rgba(204, 153, 255, 0.085);
+    box-shadow: 0 4px 10px 0 rgba(110, 110, 110, 0.37);
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.087);
+    position: absolute;
+    height: 250px;
+    width: 400px;
+    top: 25%;
+    left: 38%;
+    transform: rotate(15deg);
+}
+
+.credittxt {
+    position: absolute;
+    top: 4%;
+    left: 7%;
+    font-size: 0.9em;
+    color: #ffffff;
+    text-shadow: 
+        1px 1px 2px rgba(0, 0, 0, 0.9),
+        1px -1px 2px rgba(255, 255, 255, 0.876);
+    letter-spacing: 2px;
+}
+
+.debittxt {
+    position: absolute;
+    top: 4%;
+    left: 7%;
+    font-size: 0.9em;
+    color: #ffffff;
+    text-shadow: 
+        1px 1px 2px rgba(0, 0, 0, 0.9),
+        1px -1px 2px rgba(255, 255, 255, 0.876);
+    letter-spacing: 2px;
+}
+
+.creditno{
+    position: absolute;
+    top: 58%;
+    left: 68%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    font-size: 1.6em;
+    color: #ffffff;
+    text-shadow: 
+        1px 1px 2px rgba(0, 0, 0, 0.9),
+        1px -1px 2px rgba(255, 255, 255, 0.876);
+    letter-spacing: 2px;
+}
+
+.debitno{
+    position: absolute;
+    top: 58%;
+    left: 68%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    font-size: 1.6em;
+    color: #ffffff;
+    text-shadow: 
+        1px 1px 2px rgba(0, 0, 0, 0.9),
+        1px -1px 2px rgba(255, 255, 255, 0.876);
+    letter-spacing: 2px;
+}
+
+.creditname{
+    position: absolute;
+    top: 81%;
+    left: 58%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    font-size: 0.8em;
+    color: #ffffff;
+    text-shadow: 
+        1px 1px 2px rgba(0, 0, 0, 0.9),
+        1px -1px 2px rgba(255, 255, 255, 0.876);
+    letter-spacing: 2px;
+}
+
+.debitname{
+    position: absolute;
+    top: 81%;
+    left: 58%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    font-size: 0.8em;
+    color: #ffffff;
+    text-shadow: 
+        1px 1px 2px rgba(0, 0, 0, 0.9),
+        1px -1px 2px rgba(255, 255, 255, 0.876);
+    letter-spacing: 2px;
+}
+
+.creditexp{
+    position: absolute;
+    top: 81%;
+    right: 6%;
+    transform: translate(-50%, -50%);
+    font-size: 0.8em;
+    color: #ffffff;
+    text-shadow: 
+        1px 1px 2px rgba(0, 0, 0, 0.9),
+        1px -1px 2px rgba(255, 255, 255, 0.876);
+    letter-spacing: 2px;
+}
+
+.debitexp{
+    position: absolute;
+    top: 81%;
+    right: 6%;
+    transform: translate(-50%, -50%);
+    font-size: 0.8em;
+    color: #ffffff;
+    text-shadow: 
+        1px 1px 2px rgba(0, 0, 0, 0.9),
+        1px -1px 2px rgba(255, 255, 255, 0.876);
+    letter-spacing: 2px;
+}
+
+.creditbank{
+    position: absolute;
+    top: 3%;
+    right: 7%;
+    font-size: 0.9em;
+    color: #ffffff;
+    text-shadow: 
+        1px 1px 2px rgba(0, 0, 0, 0.9),
+        1px -1px 2px rgba(255, 255, 255, 0.876);
+    letter-spacing: 2px;
+}
+
+.debitbank{
+    position: absolute;
+    top: 3%;
+    right: 7%;
+    font-size: 0.9em;
+    color: #ffffff;
+    text-shadow: 
+        1px 1px 2px rgba(0, 0, 0, 0.9),
+        1px -1px 2px rgba(255, 255, 255, 0.876);
+    letter-spacing: 2px;
+}
